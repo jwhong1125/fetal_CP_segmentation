@@ -86,6 +86,13 @@ To run using ``docker``, be sure to assign an "input" directory to ``/incoming``
             -ouput /outgoing
 
 
+Binary package
+~~~~~~~~~~~~~~
+For your convenience, we provide pre-compiled a ``binary file`` on ``ubuntu 16.04 or later``.
+https://drive.google.com/file/d/1sYtdMqJoBjYpfqDjArxpnIYrvlqDNaYN/view?usp=sharing
+
+
+
 Credits
 -------
 
