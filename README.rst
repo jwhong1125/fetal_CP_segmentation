@@ -27,6 +27,11 @@ With the development of fetal brain imaging technology, quantitative methods for
 
 .. image:: ./abs_fig.png
 
+Preprocessing
+-------------
+- High resolution reconstraction (isotropic 0.75mm voxel) using ``Kuklisova-Murgasova et al., 2012`` 
+- Linear registration to 31 weeks GA brain template using ``flirt`` in ``FSL``.  
+
 Arguments
 ----------
 
@@ -51,8 +56,8 @@ Run
 This ``plugin`` can be run in two modes: natively as a python package or as a containerized docker image.
 
 
-Using PyPI
-~~~~~~~~~~
+Using Python3
+~~~~~~~~~~~~~
 
 To run using native env or virtual env, simply do a
 
