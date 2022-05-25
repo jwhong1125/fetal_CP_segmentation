@@ -10,7 +10,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['pip==19.2.3',
+requirements = ['pip==21.1',
 'bump2version==0.5.11',
 'wheel==0.33.6',
 'watchdog==0.9.0',
